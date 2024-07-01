@@ -36,7 +36,83 @@
       </div>
     </header>
     <!-- end header  -->
+    <!-- home  -->
+    <section class="home" id="home">
+      <div class="text">
+        <h1><span>Looking</span> to <br />rent a car?</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quaerat
+          alias fugiat vero amet quasi.
+        </p>
+        <div class="app-stores">
+          <a href="https://www.apple.com/app-store/">
+            <img src="img/ios.png" alt="" />
+          </a>
+          <a href="https://play.google.com/store/games?hl=en">
+            <img src="img/play.png" alt="" />
+          </a>
+        </div>
+      </div>
+      <div class="form-container">
+        <form action="">
+          <div class="input-box">
+            <span>Location</span>
+            <input type="search" name="" id="" placeholder="Search Places" />
+          </div>
+          <div class="input-box">
+            <span> Pick-Up Date </span>
+            <input type="date" name="" id="" />
+          </div>
+          <div class="input-box">
+            <span> Return Date </span>
+            <input type="date" name="" id="" />
+          </div>
 
+          <input type="submit" value="Submit" class="btn" />
+        </form>
+      </div>
+    </section>
+    <!-- end of home  -->
+
+    <!-- Ride  -->
+    <div class="ride" id="ride">
+      <div class="heading">
+        <span>How its Work</span>
+        <h1>Rent With 3 Easy Steps</h1>
+      </div>
+      <div class="ride-container">
+        <div class="box">
+          <i class="bi bi-geo-alt-fill"></i>
+          <h2>Choose a location</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit
+            facere quasi incidunt.
+          </p>
+        </div>
+        <div class="box">
+          <i class="bi bi-calendar-check"></i>
+          <h2>Pick UP Date</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit
+            facere quasi incidunt.
+          </p>
+        </div>
+        <div class="box">
+          <i class="bi bi-calendar"></i>
+          <h2>Book A Car</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit
+            facere quasi incidunt.
+          </p>
+        </div>
+      </div>
+    </div>
+    <!-- End of RIde  -->
     <script src="app.js"></script>
+    <script>
+      document
+        .getElementsByTagName("form")
+        .addEventListener("submit", (e) => e.preventdefault());
+    </script>
   </body>
 </html>
