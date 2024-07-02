@@ -161,46 +161,97 @@ header {
   font-weight: 600;
 }
 
-.form-container form .btn:hover{
-  background:var(--main-color);
+.form-container form .btn:hover {
+  background: var(--main-color);
   color: #fff;
 }
-.heading{
+.heading {
   text-align: center;
-
-}.heading span{
+}
+.heading span {
   font-weight: 500;
   text-transform: uppercase;
 }
-.heading h1{
+.heading h1 {
   font-size: 2rem;
 }
-.ride-container{
+.ride-container {
   display: grid;
   align-items: center;
-  grid-template-columns: repeat(auto-fit,minmax(250px,auto));
+  grid-template-columns: repeat(auto-fit, minmax(250px, auto));
   gap: 1rem;
   margin-top: 2rem;
 }
-.ride-container .box{
+.ride-container .box {
   text-align: center;
   padding: 20px;
 }
-.ride-container .box .bi{
+.ride-container .box .bi {
   font-size: 34px;
   padding: 10px;
   background: #eeeff1;
   border-radius: 0.5rem;
   color: var(--main-color);
   transition: all 0.5s;
-
 }
-.ride-container .box h2{
+.ride-container .box h2 {
   font-size: 1.3rem;
   font-weight: 500;
   margin: 1.4rem 0 0.5rem;
 }
-.ride-container .box .bi:hover, .ride-container .box .bi-calendar-check{
-background: var(--gradient);
-color: #fff;
+.ride-container .box .bi:hover,
+.ride-container .box .bi-calendar-check {
+  background: var(--gradient);
+  color: #fff;
+}
+.services-contianer {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, auto));
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.services-contianer .box {
+  padding: 10px;
+  border-radius: 1rem;
+  box-shadow: 1px 4px 41px rgba(0, 0, 0, 0.3);
+}
+.services-contianer .box .box-img {
+  width: 100%;
+  height: 200px;
+}
+.services-contianer .box .box-img img {
+  width: 100%;
+  height: 100%;
+  border-radius: 1rem;
+  object-fit: cover;
+}
+.services-contianer .box p {
+  padding: 0 10px;
+  border: 1px solid var(--text-color);
+  width: 58px;
+  border-radius: 0.5rem;
+  margin: 1rem 0 1rem;
+}
+.services-contianer .box h3 {
+  font-weight: 500;
+}
+.services-contianer .box h2 {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: var(--main-color);
+  margin: 0.2rem;
+}
+.services-contianer .box h2 span {
+  font-size: 0.8rem;
+  color: #000;
+}
+.services-contianer .box .btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #4747fe;
+  color: #fff;
+  padding: 10px;
+  border-radius: 0.5rem;
 }
