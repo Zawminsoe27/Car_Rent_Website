@@ -263,44 +263,44 @@ header {
   gap: 1rem;
   margin-top: 1rem;
 }
-.about-img img{
+.about-img img {
   width: 100%;
 }
-.about-text span{
+.about-text span {
   font-weight: 500;
   color: var(--main-color);
   text-transform: uppercase;
 }
-.about-text p{
+.about-text p {
   margin: 0.5rem 0 1.4rem;
 }
-.about-text .btn{
+.about-text .btn {
   padding: 10px 20px;
   background-color: #4747fe;
   color: #fff;
   border-radius: 0.5rem;
 }
-.review-container{
+.review-container {
   display: grid;
-  grid-template-columns: repeat(auto-fit,minmax(250px,auto));
+  grid-template-columns: repeat(auto-fit, minmax(250px, auto));
   gap: 1rem;
   margin-top: 2rem;
 }
-.rev-img{
+.rev-img {
   width: 120px;
   height: 120px;
-background-color: #ffeeee;
-border: 5px solid #ffffff;
-border-radius: 50%;
-box-shadow: 0 0 10px rgba(0,0,0,0.7);
+  background-color: #ffeeee;
+  border: 5px solid #ffffff;
+  border-radius: 50%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
 }
-.rev-img img{
+.rev-img img {
   width: 100%;
   height: 100%;
-border-radius: 50%;
-object-fit: cover;
+  border-radius: 50%;
+  object-fit: cover;
 }
-.review-container .box{
+.review-container .box {
   /* border:5px solid  red; */
   display: flex;
   text-align: center;
@@ -308,20 +308,54 @@ object-fit: cover;
   flex-direction: column;
   padding: 5px 8px;
   background-color: #fff;
-  box-shadow: 0 0 5px rgba(0,0,0,0.4);
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.4);
   object-position: center;
 }
-.review-container .box h2{
+.review-container .box h2 {
   font-weight: bolder;
   font-style: 25px;
-  background:black;
+  background: black;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-.review-container .box .stars .bi{
+.review-container .box .stars .bi {
   font-size: 22px;
-
 }
-.review-container .box  p{
+.review-container .box p {
   font-size: 18px;
+  font-style: italic;
+}
+.newslatter {
+  background: linear-gradient(to top right, #fe5b3d, #ffac38);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+.newslatter h2 {
+  font-size: 35px;
+  color: #fff;
+  position: absolute;
+  top: 0;
+}
+.newslatter .box {
+  margin-top: 1rem;
+  background-color: #fff;
+  padding: 4px 8px;
+  width: 380px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.newslatter .box input {
+  border: none;
+  outline: none;
+}
+
+.newslatter .box .btn{
+  background-color: #4747fe;
+  color: #fff;
+  padding: 5px 8px;
+  border-radius: 4px;
 }
