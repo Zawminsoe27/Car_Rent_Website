@@ -22,9 +22,7 @@
       <a href="#" class="logo">
         <img src="img/jeep.png" alt="" />
       </a>
-      <div class="bx bx-menu" id="menu-icon">
-        <i class="bi bi-list"></i>
-      </div>
+      <div class="bx bi-list" id="menu-icon"></div>
       <!-- navbar  -->
       <ul class="navbar">
         <li><a href="#home">Home</a></li>
@@ -270,17 +268,30 @@
     <section class="newslatter" id="newslatter">
       <h2>Subscribe to newslatter</h2>
       <div class="box">
-        <input type="text" placeholder="Enter Your Email...">
+        <input type="text" placeholder="Enter Your Email..." />
         <a href="#" class="btn">Subscribe</a>
       </div>
-     </section>
+    </section>
     <!-- end of newslatter  -->
-
+    <div class="copyright">
+      <p>&#169; Carpool Venam All Right Reversed</p>
+      <div class="social">
+        <a href="#"><i class="bi bi-facebook"></i></a>
+        <a href="#"><i class="bi bi-twitter"></i></a>
+        <a href="#"><i class="bi bi-instagram"></i></a>
+      </div>
+    </div>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/scrollReveal.js/4.0.9/scrollreveal.min.js"
+      integrity="sha512-Kr+RPfLjQ71E0cJ9nseJ6jwTrnmMnuSPnnsVQQ/ZYYCjOHKfJcWj8ILICXnvf9A7ZQChNzIbr9x/ZAxA6xAZlQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
     <script src="app.js"></script>
     <script>
-      document
-        .getElementsByTagName("form")
-        .addEventListener("submit", (e) => e.preventdefault());
+      let form = document.querySelector("form");
+
+      form.addEventListener("submit", (e) => e.preventdefault());
     </script>
   </body>
 </html>
